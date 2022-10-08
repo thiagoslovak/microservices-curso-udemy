@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "7574676a-53ba-4396-b80b-1ef39e5a21ff",
+		"name": "ms-cartoes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18447127"
+	},
+	"item": [
+		{
+			"name": "POST - Cadastra",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUyNDc2MDgsImlhdCI6MTY2NTI0NzMwOCwianRpIjoiNjlkNDRlOWItMDJjOC00YzIyLThlNzItOGE3MzA4MGJhY2YyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjJiYWRhYTE2LWIyZDItNDk3MC1iYTMxLWI5Y2ZjZTQ0YTA3MSIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.AjNqffF3_h7VMjIypwye4lIALxNHwt9kQtpiV8TxH4SxFhvgIAZbuiZmUgFD0skMChHtL0sfjslOd7NKITA4LBVWwV-V5qiodMx2BEFsd8Fda8mhWqaOu_dakH48i3jp4aM1hCGVKbf268bpaJMVroOOyvghGDa96FPVN5O--tPoWUVftFLRX36s5hORQYBc7AD4yeo8VFmlv5dHg907iMAiw84r2yKKkV3L1PmgHUyAv3Pe7m5HFw6BpsWtEVEZ1DebLSF6G04ZMtSy2zUTyOYmCEbZ10OjlA3yAz_xiBFhz1QFTi4ZviUS6-FX5cx6VmE-Mb6hgO1x5aZu-kjMWg"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"bradesco visa\",\r\n    \"bandeira\": \"VISA\",\r\n    \"renda\": 3000,\r\n    \"limite\": 3500\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/cartoes"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Cartoes Renda Ateh(renda)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUyNDc2MDgsImlhdCI6MTY2NTI0NzMwOCwianRpIjoiNjlkNDRlOWItMDJjOC00YzIyLThlNzItOGE3MzA4MGJhY2YyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjJiYWRhYTE2LWIyZDItNDk3MC1iYTMxLWI5Y2ZjZTQ0YTA3MSIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.AjNqffF3_h7VMjIypwye4lIALxNHwt9kQtpiV8TxH4SxFhvgIAZbuiZmUgFD0skMChHtL0sfjslOd7NKITA4LBVWwV-V5qiodMx2BEFsd8Fda8mhWqaOu_dakH48i3jp4aM1hCGVKbf268bpaJMVroOOyvghGDa96FPVN5O--tPoWUVftFLRX36s5hORQYBc7AD4yeo8VFmlv5dHg907iMAiw84r2yKKkV3L1PmgHUyAv3Pe7m5HFw6BpsWtEVEZ1DebLSF6G04ZMtSy2zUTyOYmCEbZ10OjlA3yAz_xiBFhz1QFTi4ZviUS6-FX5cx6VmE-Mb6hgO1x5aZu-kjMWg"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/cartoes?renda=3000",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cartoes"
+					],
+					"query": [
+						{
+							"key": "renda",
+							"value": "3000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Cartoes By Cliente(cpf)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUyNDc2MDgsImlhdCI6MTY2NTI0NzMwOCwianRpIjoiNjlkNDRlOWItMDJjOC00YzIyLThlNzItOGE3MzA4MGJhY2YyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjJiYWRhYTE2LWIyZDItNDk3MC1iYTMxLWI5Y2ZjZTQ0YTA3MSIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.AjNqffF3_h7VMjIypwye4lIALxNHwt9kQtpiV8TxH4SxFhvgIAZbuiZmUgFD0skMChHtL0sfjslOd7NKITA4LBVWwV-V5qiodMx2BEFsd8Fda8mhWqaOu_dakH48i3jp4aM1hCGVKbf268bpaJMVroOOyvghGDa96FPVN5O--tPoWUVftFLRX36s5hORQYBc7AD4yeo8VFmlv5dHg907iMAiw84r2yKKkV3L1PmgHUyAv3Pe7m5HFw6BpsWtEVEZ1DebLSF6G04ZMtSy2zUTyOYmCEbZ10OjlA3yAz_xiBFhz1QFTi4ZviUS6-FX5cx6VmE-Mb6hgO1x5aZu-kjMWg"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/cartoes?cpf=0123456789",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cartoes"
+					],
+					"query": [
+						{
+							"key": "cpf",
+							"value": "0123456789"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - keycloak-token",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"clientSecret": "pCLNqncIulsOacGRDCYyGMPFoGjJiIzP",
+						"clientId": "mscredito",
+						"accessTokenUrl": "http://localhost:8081/realms/mscourserealm/protocol/openid-connect/token",
+						"grant_type": "client_credentials",
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "GET - keycloak-token"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,101 @@
+2022-09-29 08:41:30.610  WARN 23656 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h47m28s931ms270µs).
+2022-09-29 08:42:38.952  INFO 23656 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLIENTES with eureka with status DOWN
+2022-09-29 08:42:38.954  INFO 23656 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1664451758954, current=DOWN, previous=UP]
+2022-09-29 08:42:38.957  INFO 23656 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d4bf82997f9bbea5167be4de8f0c269d: registering service...
+2022-09-29 08:42:39.011  INFO 23656 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d4bf82997f9bbea5167be4de8f0c269d - registration status: 204
+2022-09-29 08:42:42.068  INFO 23656 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-29 08:42:42.072  INFO 23656 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-09-29 08:42:42.537  WARN 23656 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-09-29 08:42:42.541  INFO 23656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-29 08:42:42.552  INFO 23656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-29 08:42:42.554  INFO 23656 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-29 08:42:45.564  INFO 23656 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-29 08:42:45.581  INFO 23656 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d4bf82997f9bbea5167be4de8f0c269d - deregister  status: 200
+2022-09-29 08:42:45.594  INFO 23656 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-09-29 19:56:25.238  INFO 9140 --- [restartedMain] c.app.msclientes.MsclientesApplication   : Starting MsclientesApplication using Java 11.0.13 on MGA10291 with PID 9140 (C:\Users\thiago.belordi\Documents\Java\udemy\DomineMicroservicosMensageriaSpringCloudDocker\msclientes\target\classes started by thiago.belordi in C:\Users\thiago.belordi\Documents\Java\udemy\DomineMicroservicosMensageriaSpringCloudDocker\msclientes)
+2022-09-29 19:56:25.243  INFO 9140 --- [restartedMain] c.app.msclientes.MsclientesApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-09-29 19:56:25.392  INFO 9140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 19:56:25.392  INFO 9140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 19:56:28.792  INFO 9140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-29 19:56:29.187  INFO 9140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 373 ms. Found 1 JPA repository interfaces.
+2022-09-29 19:56:29.814  INFO 9140 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9c0e6238-feab-3717-b3e4-1c9dff2e8bd5
+2022-09-29 19:56:31.914  INFO 9140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-09-29 19:56:31.933  INFO 9140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 19:56:31.934  INFO 9140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-29 19:56:32.267  INFO 9140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 19:56:32.268  INFO 9140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6875 ms
+2022-09-29 19:56:32.584  INFO 9140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-29 19:56:33.178  INFO 9140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-29 19:56:33.212  INFO 9140 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7d67c2b2-308c-4203-a01d-c1668bf2785b'
+2022-09-29 19:56:33.675  INFO 9140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-29 19:56:33.824  INFO 9140 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-29 19:56:34.229  INFO 9140 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-29 19:56:34.602  INFO 9140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-29 19:56:36.030  INFO 9140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-29 19:56:36.048  INFO 9140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-29 19:56:37.352  WARN 9140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-29 19:56:41.717  INFO 9140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 19:56:43.200  INFO 9140 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-09-29 19:56:43.326  WARN 9140 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-29 19:56:43.337  INFO 9140 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-09-29 19:56:43.458  INFO 9140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53179 (http) with context path ''
+2022-09-29 19:56:43.460  INFO 9140 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 53179
+2022-09-29 19:56:43.469  INFO 9140 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-09-29 19:56:43.615  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-09-29 19:56:43.629  INFO 9140 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-29 19:56:43.699  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-29 19:56:43.702  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-29 19:56:43.703  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-29 19:56:43.703  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-29 19:56:43.704  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-29 19:56:43.705  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-09-29 19:56:43.705  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-29 19:56:44.621  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-29 19:56:44.625  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-09-29 19:56:44.631  INFO 9140 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-29 19:56:44.640  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1664492204638 with initial instances count: 0
+2022-09-29 19:56:44.643  INFO 9140 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCLIENTES with eureka with status UP
+2022-09-29 19:56:44.644  INFO 9140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1664492204644, current=UP, previous=STARTING]
+2022-09-29 19:56:44.648  INFO 9140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5: registering service...
+2022-09-29 19:56:45.028  INFO 9140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5 - registration status: 204
+2022-09-29 19:56:45.791  INFO 9140 --- [restartedMain] c.app.msclientes.MsclientesApplication   : Started MsclientesApplication in 23.048 seconds (JVM running for 24.895)
+2022-09-29 19:56:55.819  INFO 9140 --- [http-nio-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 19:56:55.819  INFO 9140 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 19:56:55.823  INFO 9140 --- [http-nio-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-29 19:57:14.639  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-29 19:57:14.640  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-29 19:57:14.641  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-29 19:57:14.642  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-29 19:57:14.642  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-29 19:57:14.642  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-09-29 19:57:14.643  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-29 19:57:14.671  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-29 19:57:23.673  INFO 9140 --- [http-nio-auto-1-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 390 ms
+2022-09-29 20:01:43.717  INFO 9140 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-29 20:06:43.732  INFO 9140 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-29 20:11:43.740  INFO 9140 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-29 20:16:43.752  INFO 9140 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-29 20:19:46.936  INFO 9140 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5 - Re-registering apps/MSCLIENTES
+2022-09-29 20:19:46.937  INFO 9140 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5: registering service...
+2022-09-29 20:19:47.121  INFO 9140 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5 - registration status: 204
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-09-29 20:20:16.983  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-29 20:20:17.150  INFO 9140 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-29 20:20:23.901  INFO 9140 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLIENTES with eureka with status DOWN
+2022-09-29 20:20:23.902  INFO 9140 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1664493623902, current=DOWN, previous=UP]
+2022-09-29 20:20:23.903  INFO 9140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5: registering service...
+2022-09-29 20:20:23.920  INFO 9140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5 - registration status: 204
+2022-09-29 20:20:24.808  INFO 9140 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-29 20:20:24.813  INFO 9140 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-09-29 20:20:25.056  WARN 9140 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-09-29 20:20:25.060  INFO 9140 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-29 20:20:25.073  INFO 9140 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-29 20:20:25.076  INFO 9140 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-29 20:20:28.357  INFO 9140 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-29 20:20:28.642  INFO 9140 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLIENTES/msclientes:d65d5e2b22abc65d86f0287e0902f4e5 - deregister  status: 200
+2022-09-29 20:20:28.660  INFO 9140 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

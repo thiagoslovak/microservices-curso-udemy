@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "a3d6b134-fb1e-42fd-aed1-62b5cce27f26",
+		"name": "ms-avaliador-credito",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18447127"
+	},
+	"item": [
+		{
+			"name": "GET - status",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUwOTI0MzAsImlhdCI6MTY2NTA5MjM3MCwianRpIjoiNWM1OGQyZDEtMWJjZC00NDIwLWI3ODAtNzBlMDYyMGRjMDI2IiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyYmFkYWExNi1iMmQyLTQ5NzAtYmEzMS1iOWNmY2U0NGEwNzEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6Im1zY3JlZGl0byIsImNsaWVudEhvc3QiOiIxNzIuMTguMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.obUs3A4vdjpfi2Z2N8grJshcu1gOL4itqkCDSy768MXvygVE63dE0rjQnFc-dbl_zoW2xmDN8uNQK68yrn2k-c7EteS0mxDxuLYSv4yeGjo1QdxlDxtqOUxd30R_cUpYe1-m3ua4hE3-SYEEgyN54B0nu4UAxlHUY3o6K__esTstcyE53bXfNcXwtIr2cgdvDQmOoZI_IpRT-cIUwcIO26kAvRIXOSkSrLqxZSPrHQ-7WvZJ1ftdnkQFtK5l533pgfH8WIfq7zx8oqiesA3h4OiZld9e0CEoMwqsSkWR5GEwHM_cXCwx3lAcf4-H2dLubGCcTajWWq7KIVW3KkTE9A"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/avaliacoes-credito"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Consulta Situacao Cliente",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUyNDc2MDgsImlhdCI6MTY2NTI0NzMwOCwianRpIjoiNjlkNDRlOWItMDJjOC00YzIyLThlNzItOGE3MzA4MGJhY2YyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjJiYWRhYTE2LWIyZDItNDk3MC1iYTMxLWI5Y2ZjZTQ0YTA3MSIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.AjNqffF3_h7VMjIypwye4lIALxNHwt9kQtpiV8TxH4SxFhvgIAZbuiZmUgFD0skMChHtL0sfjslOd7NKITA4LBVWwV-V5qiodMx2BEFsd8Fda8mhWqaOu_dakH48i3jp4aM1hCGVKbf268bpaJMVroOOyvghGDa96FPVN5O--tPoWUVftFLRX36s5hORQYBc7AD4yeo8VFmlv5dHg907iMAiw84r2yKKkV3L1PmgHUyAv3Pe7m5HFw6BpsWtEVEZ1DebLSF6G04ZMtSy2zUTyOYmCEbZ10OjlA3yAz_xiBFhz1QFTi4ZviUS6-FX5cx6VmE-Mb6hgO1x5aZu-kjMWg"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/avaliacoes-credito/situacao-cliente?cpf=0123456789",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"avaliacoes-credito",
+						"situacao-cliente"
+					],
+					"query": [
+						{
+							"key": "cpf",
+							"value": "0123456789"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Realizar Avaliacao",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUyNDc2MDgsImlhdCI6MTY2NTI0NzMwOCwianRpIjoiNjlkNDRlOWItMDJjOC00YzIyLThlNzItOGE3MzA4MGJhY2YyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgxL3JlYWxtcy9tc2NvdXJzZXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjJiYWRhYTE2LWIyZDItNDk3MC1iYTMxLWI5Y2ZjZTQ0YTA3MSIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1zY3JlZGl0byIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1tc2NvdXJzZXJlYWxtIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImNsaWVudElkIjoibXNjcmVkaXRvIiwiY2xpZW50SG9zdCI6IjE3Mi4xOC4wLjEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1tc2NyZWRpdG8iLCJjbGllbnRBZGRyZXNzIjoiMTcyLjE4LjAuMSJ9.AjNqffF3_h7VMjIypwye4lIALxNHwt9kQtpiV8TxH4SxFhvgIAZbuiZmUgFD0skMChHtL0sfjslOd7NKITA4LBVWwV-V5qiodMx2BEFsd8Fda8mhWqaOu_dakH48i3jp4aM1hCGVKbf268bpaJMVroOOyvghGDa96FPVN5O--tPoWUVftFLRX36s5hORQYBc7AD4yeo8VFmlv5dHg907iMAiw84r2yKKkV3L1PmgHUyAv3Pe7m5HFw6BpsWtEVEZ1DebLSF6G04ZMtSy2zUTyOYmCEbZ10OjlA3yAz_xiBFhz1QFTi4ZviUS6-FX5cx6VmE-Mb6hgO1x5aZu-kjMWg"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpf\": \"0123456789\",\r\n    \"renda\": 5000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/avaliacoes-credito"
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Solicitar Cartao",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5cDJSbWJidElGOWl3Q2g5SXY0bGZhZndSSXJSUVVhSkIxdXlWNWtFTHU4In0.eyJleHAiOjE2NjUxODI3MjcsImlhdCI6MTY2NTE4MjQyNywianRpIjoiYjYyNDAzY2YtYmEwNS00OTkzLWIxOTctYzZhMGE0OWUzNmUxIiwiaXNzIjoiaHR0cDovL2N1cnNvbXMta2V5Y2xvYWs6ODA4MC9yZWFsbXMvbXNjb3Vyc2VyZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiIyYmFkYWExNi1iMmQyLTQ5NzAtYmEzMS1iOWNmY2U0NGEwNzEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJtc2NyZWRpdG8iLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtbXNjb3Vyc2VyZWFsbSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6Im1zY3JlZGl0byIsImNsaWVudEhvc3QiOiIxNzIuMTguMC4xIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtbXNjcmVkaXRvIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4xOC4wLjEifQ.blqeuTxlfDb-JrRLVgI9iwEyFLld1xIjNqtLyNTI5Wm8XPxwNko0DctSpobRRIH2Ll9nYuSbgAlhewfejOuHYjotB2T5x3H_nWvtblbN43lbEJMlySPygVUjYZcUt3d7mT3PB5-QnQ1X_pUDAvyIVxnFOfoTvduDkA4-DtUbaYQUjD9s7v0jadyAQw5D9nW7qZxTEwvzBW_TqQfMLWadBhuFz5OBLw-bAMmrGauNesKn_WRIKC-mNFf2tdlKMScltHhlBHsbHgnxbNsDUgo_2fqiDwallHj5qFPBXztysyoiZ1Wfc83jYKP05lJUBZzd-vsv4dHNhdsItXt8_w21pQ"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCartao\": 1,\r\n    \"cpf\": \"0123456789\",\r\n    \"endereco\": \"Rua X\",\r\n    \"limiteLiberado\": 8750\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/avaliacoes-credito/solicitacoes-cartao"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - keycloak-token",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"clientSecret": "pYGf7NZGjxYdGge4PRHXTsI4EXauMpGR",
+						"accessTokenUrl": "http://localhost:8081/realms/mscourserealm/protocol/openid-connect/token",
+						"clientId": "mscredito",
+						"grant_type": "client_credentials",
+						"addTokenTo": "header"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "GET - keycloak-token"
+			},
+			"response": []
+		}
+	]
+}
