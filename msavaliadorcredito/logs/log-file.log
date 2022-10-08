@@ -1,0 +1,9 @@
+2022-09-30 08:41:46.758  INFO 20444 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-30 08:42:14.320  INFO 20444 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-09-30 08:42:14.322  INFO 20444 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1664538134322, current=DOWN, previous=UP]
+2022-09-30 08:42:14.323  INFO 20444 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:b66b63ef3f03b374f9c7157a8f97fb87: registering service...
+2022-09-30 08:42:14.387  INFO 20444 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:b66b63ef3f03b374f9c7157a8f97fb87 - registration status: 204
+2022-09-30 08:42:16.730  INFO 20444 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-30 08:42:19.757  INFO 20444 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-30 08:42:19.832  INFO 20444 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:b66b63ef3f03b374f9c7157a8f97fb87 - deregister  status: 200
+2022-09-30 08:42:19.839  INFO 20444 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
